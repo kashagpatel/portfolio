@@ -6,14 +6,14 @@
 	position: absolute;
 	top:14px;
 	margin: auto;
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
 .y{
 	position: absolute;
-	left: 90px;
-	width:28px;
-	top: 15px;
+	left: 113px;
+	width:45px;
+	top: 0px;
 }
 
 
@@ -88,7 +88,7 @@ h1{
     background-color; white;
     overflow: hidden;
     text-align: center;
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Raleway', sans-serif;
     padding-top: 6px;
 }
 
@@ -145,20 +145,49 @@ h1{
 }
 
 h2{
-	font-family: 'Fjalla One', sans-serif;
+	font-family: 'Raleway', sans-serif;
 }
 
+.upcoming{
+	width:50%;
+}
 
 .upcomingtext{
 	line-height: 200%;
 	padding-left:20px;
 }
 
-.calendar{
-	padding-right: 300px;
-	float: right;
+.videos{
+	padding-left: 20px;
 }
 
 .pressphoto{
 	width: 250px;
 }
+
+.about1{
+	line-height: 200%;
+	width: 50%;
+}
+
+.test1{
+	text-align: right;
+	font-size: 20px;
+}
+
+.test2{
+		text-align: right;
+	font-size: 20px;
+}
+
+.contact{
+	float: left;
+	width: 50%;
+	line-height: 200%;
+}
+
+.form{
+	float:right;
+}
+
+

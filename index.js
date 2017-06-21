@@ -7,17 +7,19 @@ $(".slider1").bxSlider();
 	auto: true;
   	autoControls: true;
 
-$(".title1").click(function(){
-
-$(".y").slideDown();
-
-});
+setTimeout(function(){
+	$(".y").slideDown(1000)
+		.rotate({
+      	angle: 0,
+      	animateTo:15
+      	})
+	}, 5000);
 
 $(".y").rotate({bind:{
   click: function(){
     $(this).rotate({
       angle: 0,
-      animateTo:45
+      animateTo:375
       })
     }
   }
@@ -36,5 +38,3 @@ $(".test").hover(function(){
   	$(".quote1").fadeOut();
 
 });  	
-
-
